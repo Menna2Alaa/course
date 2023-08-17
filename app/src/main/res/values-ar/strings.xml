@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">كورس ايمان </string>
+    <string name="username"> اسم المستخدم </string>
+    <string name="password"> رقم السر </string>
+    <string name="login"> صفحه الدخول </string>
+    <string name="sports"> الرياضات المفضله </string>
+    <string name="football"> كره القدم</string>
+    <string name="handball"> كره اليد</string>
+    <string name="Basketball"> كره السله</string>
+    <string name="gender"> النوع </string>
+    <string name="male"> رجل </string>
+    <string name="female"> مراه </string>
+    <string name="register"> تسجيل </string>
+    <string name="hi"> مرحبا ف الصفحه الثانيه </string>
+    <string name="google"> جوجل</string>
+    <string name="facebook"> فيسبوك </string>
+    <string name="Lodin"> تسجيل الدخول </string>
+    <string name="go"> اذهب للصفخه الثانيه </string>
+    <string name="exit"> اغلاق </string>
+    <string name="mdialog"> هل انت متاكد من انك تريد اغلاق البرنامج؟ </string>
+    <string name="yes"> نعم </string>
+    <string name="no"> لا </string>
+    <string name="loginout"> تسجيل الخروج </string>
+</resources>
