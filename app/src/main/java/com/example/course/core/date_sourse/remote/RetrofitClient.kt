@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
 
-    fun getIntance(baseUrl:String): ApiInterface {
+    fun getInstance(baseUrl:String): ApiInterface {
 
         //when call api or resive date ,interceptorrr see the bodyy and edit on it
         var interceptor = HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)

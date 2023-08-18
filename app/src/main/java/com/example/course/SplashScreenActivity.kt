@@ -9,6 +9,7 @@ import android.view.WindowManager
 import androidx.activity.ComponentActivity
 import com.example.course.databinding.ActivitySplashBinding
 import com.example.course.ui.login.MainActivity
+import com.example.course.ui.second_activity.SecondActivity
 
 class SplashScreenActivity :  ComponentActivity() {
     lateinit var binding :ActivitySplashBinding

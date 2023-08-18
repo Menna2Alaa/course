@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.course.databinding.PostItemBinding
-import com.example.course.core.model.Post
+import com.example.course.core.model.body.Post
 
 class CustomAdapter(var Postslist:List<Post>, var listener: MyCustomClickListener) :
     RecyclerView.Adapter<CustomAdapter.ViewHolder>(){

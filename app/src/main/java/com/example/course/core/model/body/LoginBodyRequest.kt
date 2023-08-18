@@ -6,7 +6,5 @@ data class LoginBodyRequest (
     @SerializedName("username")
     val username : String,
     @SerializedName("password")
-    val passwoed : String
-){
-
-}
+    val password : String
+)

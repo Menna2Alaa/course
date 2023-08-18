@@ -1,6 +1,6 @@
 package com.example.course.core.model.response
 
-import com.example.course.core.model.Support
+import com.example.course.core.model.body.Support
 import com.example.course.core.model.User
 import com.google.gson.annotations.SerializedName
 
@@ -15,7 +15,7 @@ var perPage:Int,
 var total:Int,
 
     @SerializedName("total_pages")
-var totalpages: Int,
+var totalPages: Int,
 
     @SerializedName("date")
 var date: List<User>,
@@ -23,6 +23,4 @@ var date: List<User>,
     @SerializedName("support")
 var support: Support,
 
-    ){
-
-}
+    )

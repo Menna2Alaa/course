@@ -1,8 +1,8 @@
 package com.example.course.core.date_sourse.remote
 
-import com.example.course.core.model.Comment
+import com.example.course.core.model.body.Comment
 import com.example.course.core.model.body.LoginBodyRequest
-import com.example.course.core.model.Post
+import com.example.course.core.model.body.Post
 import com.example.course.core.model.response.UserResponse
 import retrofit2.Response
 import retrofit2.http.Body
@@ -15,7 +15,7 @@ interface ApiInterface {
 
     //gson will back name's"ResponseUserList"
     @GET("posts")
-  suspend  fun getPost(): Response<ArrayList<Post>>
+    suspend fun getPosts() :Response<ArrayList<Post>>
 
     // query optional 3ady
   @GET("posts")
@@ -24,7 +24,7 @@ interface ApiInterface {
 
     //path part of url w not optional
   @GET("posts/{post_id}/comments")
-  suspend fun getComments(@Path("post_id") postId: String): Response<ArrayList<Comment>>
+  suspend fun getComments(@Path("postId") postId : Int) : Response<ArrayList<Comment>>
 
 
   @POST("auth/login")
